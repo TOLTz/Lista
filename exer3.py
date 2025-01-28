@@ -1,8 +1,8 @@
 from functools import reduce
-from util import lista
+from util import listNumbers
 
-print(lista)
+print(listNumbers)
 
-added = reduce(lambda x, y: x+y, lista)
+added = reduce(lambda x, y: x+y, listNumbers)
 
 print(added)

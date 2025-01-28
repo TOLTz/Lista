@@ -1,7 +1,7 @@
-from util import listaWords
+from util import listWords
 
-print(listaWords)
+print(listWords)
 
-onlyFive = list(filter(lambda x: len(x) >= 5, listaWords))
+onlyFive = list(filter(lambda x: len(x) >= 5, listWords))
 
 print(onlyFive)

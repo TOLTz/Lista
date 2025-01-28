@@ -1,6 +1,6 @@
-from util import lista
+from util import listNumbers
 
-print(lista)
+print(listNumbers)
 
-doble = list(map(lambda x: x*2, lista))
+doble = list(map(lambda x: x*2, listNumbers))
 print(doble)
